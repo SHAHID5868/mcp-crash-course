@@ -1,0 +1,15 @@
+[project]
+name = "mcp-crash-course"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "black>=26.3.1",
+    "dotenv>=0.9.9",
+    "isort>=8.0.1",
+    "langchain-google-genai>=4.2.2",
+    "langchain-mcp-adapters>=0.2.2",
+    "langgraph>=1.2.0",
+    "pydantic>=2.13.4",
+]
